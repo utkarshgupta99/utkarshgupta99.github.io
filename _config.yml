@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Utkarsh Gupta / About Me"
+title                    : "Utkarsh Gupta"
 title_separator          : "-"
 name                     : &name "Utkarsh Gupta"
 description              : &description "PhD Candidate at Northeastern University"
