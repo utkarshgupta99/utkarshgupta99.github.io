@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="730" height="498" viewBox="0 0 730 498" role="img" aria-labelledby="title desc">
+  <title id="title">Privacy-preserving user selection for federated learning</title>
+  <desc id="desc">Different groups of users participate across three training rounds, including a dropout, while a secure aggregator receives only round aggregates.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#463f3a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10Z" fill="#738ca3"/>
+    </marker>
+    <g id="user">
+      <circle cx="0" cy="-9" r="8"/>
+      <path d="M-13 13c1-11 6-16 13-16s12 5 13 16"/>
+    </g>
+  </defs>
+  <rect width="730" height="498" rx="18" fill="#fbfaf6"/>
+
+  <g filter="url(#shadow)">
+    <rect x="235" y="34" width="260" height="86" rx="18" fill="#fff" stroke="#d9d4ca" stroke-width="2"/>
+  </g>
+  <g transform="translate(274 77)" fill="none" stroke="#527aa3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-16 8h39c10 0 17-6 17-15 0-8-6-14-14-15-3-10-11-16-22-16-13 0-23 9-24 22-8 1-14 7-14 14 0 6 3 10 8 10h10"/>
+    <rect x="-1" y="-12" width="18" height="17" rx="3" fill="#eef3f6"/>
+    <path d="M4-12v-5c0-5 8-5 8 0v5"/>
+  </g>
+  <text x="345" y="69" fill="#463f3a" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="650">Secure aggregation</text>
+  <text x="345" y="96" fill="#8a817c" font-family="Inter,Arial,sans-serif" font-size="14">only the aggregate is revealed</text>
+
+  <g fill="none" stroke="#738ca3" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M137 184C170 145 245 137 299 116"/>
+    <path d="M365 184V126"/>
+    <path d="M593 184C560 145 485 137 431 116"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="34" y="184" width="206" height="248" rx="16" fill="#fff" stroke="#dfdad0"/>
+    <rect x="262" y="184" width="206" height="248" rx="16" fill="#fff" stroke="#dfdad0"/>
+    <rect x="490" y="184" width="206" height="248" rx="16" fill="#fff" stroke="#dfdad0"/>
+  </g>
+
+  <g font-family="Inter,Arial,sans-serif" text-anchor="middle">
+    <text x="137" y="218" fill="#463f3a" font-size="18" font-weight="650">Round 1</text>
+    <text x="365" y="218" fill="#463f3a" font-size="18" font-weight="650">Round 2</text>
+    <text x="593" y="218" fill="#463f3a" font-size="18" font-weight="650">Round 3</text>
+  </g>
+  <path d="M54 232H220M282 232H448M510 232H676" stroke="#ebe7df"/>
+
+  <!-- Round 1: clients 1, 2 and 4 selected -->
+  <g transform="translate(82 284)" fill="#dce8ef" stroke="#527aa3" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(137 284)" fill="#dce8ef" stroke="#527aa3" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(192 284)" fill="none" stroke="#c5c0b8" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(82 360)" fill="#dce8ef" stroke="#527aa3" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(137 360)" fill="none" stroke="#c5c0b8" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(192 360)" fill="none" stroke="#c5c0b8" stroke-width="2.3"><use href="#user"/></g>
+
+  <!-- Round 2: a different subset, with one dropout -->
+  <g transform="translate(310 284)" fill="none" stroke="#c5c0b8" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(365 284)" fill="#dce8ef" stroke="#527aa3" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(420 284)" fill="#dce8ef" stroke="#527aa3" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(310 360)" fill="none" stroke="#c5c0b8" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(365 360)" fill="#f4ddd7" stroke="#a4553f" stroke-width="2.3"><use href="#user"/></g>
+  <path d="M350 335l30 30m0-30-30 30" stroke="#a4553f" stroke-width="3.2" stroke-linecap="round"/>
+  <g transform="translate(420 360)" fill="#dce8ef" stroke="#527aa3" stroke-width="2.3"><use href="#user"/></g>
+
+  <!-- Round 3: another balanced subset -->
+  <g transform="translate(538 284)" fill="#dce8ef" stroke="#527aa3" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(593 284)" fill="none" stroke="#c5c0b8" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(648 284)" fill="#dce8ef" stroke="#527aa3" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(538 360)" fill="none" stroke="#c5c0b8" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(593 360)" fill="#dce8ef" stroke="#527aa3" stroke-width="2.3"><use href="#user"/></g>
+  <g transform="translate(648 360)" fill="none" stroke="#c5c0b8" stroke-width="2.3"><use href="#user"/></g>
+
+  <g font-family="Inter,Arial,sans-serif" font-size="13" text-anchor="middle">
+    <text x="137" y="410" fill="#527aa3">selected users</text>
+    <text x="365" y="410" fill="#a4553f">dropout tolerated</text>
+    <text x="593" y="410" fill="#527aa3">balanced participation</text>
+  </g>
+  <text x="365" y="469" text-anchor="middle" fill="#8a817c" font-family="Inter,Arial,sans-serif" font-size="14" letter-spacing="1.2">PRIVATE • FAIR • ROBUST ACROSS ROUNDS</text>
+</svg>

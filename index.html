@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Utkarsh Gupta</title>
+  <meta name="description" content="Utkarsh Gupta, Ph.D. candidate in Electrical Engineering at Northeastern University, working on security and applied mathematics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body>
+  <header class="topnav">
+    <div class="nav-inner">
+      <a class="brand" href="#top">Utkarsh Gupta</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+        <a href="Utkarsh_Gupta_CV.pdf" class="cv-link" target="_blank" rel="noopener">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ABOUT / HERO -->
+    <section id="about" class="hero">
+      <div class="hero-main">
+        <p>I am a security engineer interested in applying rigorous, theory-grounded methods to real-world deployments of information systems. My work involves (i) translating security objectives into precise system requirements, (ii) making the underlying assumptions explicit, and (iii) designing attacks to understand how such systems fail in practice. I am especially interested in designing reliable and trustworthy systems for security-critical aerospace and defense applications.</p>
+
+        <p>I am currently a Ph.D. candidate in Electrical Engineering at Northeastern University, working across AI security &amp; privacy, cryptography, and secure communications. Before this, I earned a master’s degree in Electrical Engineering from the University of Michigan and an undergraduate degree in Mathematics and Computing from IIT Delhi. I have previously been a startup founder and CTO.</p>
+
+        <p>Outside of work, I enjoy boxing, playing the keyboard, and cooking.</p>
+      </div>
+
+      <aside class="hero-side">
+        <img class="portrait" src="images/profile.jpg" alt="Utkarsh Gupta" />
+        <div class="profile-heading">
+          <h1>Utkarsh Gupta</h1>
+          <p>Ph.D. Candidate<br />Electrical Engineering<br />Northeastern University</p>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="mailto:utkarshgupta99@gmail.com">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
+              <span>Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://scholar.google.com/citations?user=OaAFskMAAAAJ&amp;hl=en">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m2 10 10-5 10 5-10 5L2 10Z"></path><path d="M6 12v5c3 2 9 2 12 0v-5"></path></svg>
+              <span>Scholar</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/utkarsh-gupta-9a0347156/">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M8 11v5"></path><path d="M8 8v.01"></path><path d="M12 16v-5"></path><path d="M12 13.25A2.25 2.25 0 0 1 16.5 13v3"></path></svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </section>
+
+    <hr />
+
+    <!-- SELECTED WORKS -->
+    <section id="research">
+      <h2 class="section-title">Selected Works</h2>
+      <div class="work-list">
+        <article class="project">
+          <div class="project-figure">
+            <img src="images/fedml_multiround_privacy.png" alt="Privacy leakage across multiple federated-learning rounds" />
+          </div>
+          <div class="project-body">
+            <h4>Privacy in Federated Machine Learning over Multiple Training Rounds</h4>
+            <p>Designed a user-selection protocol for secure aggregation that improves model convergence over the state of the art while guaranteeing privacy, aggregation fairness, and robustness to user dropouts.</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-figure">
+            <img src="images/secure_comm.png" alt="Secret sharing over time modulated arrays" />
+          </div>
+          <div class="project-body">
+            <h4>Secure Wireless Communications Using Time-Varying Beampatterns</h4>
+            <p>Proposed Secret-Shared Time-Modulated Array (SS-TMA), a novel phased-array architecture for physical-layer security that integrates secret sharing with time-modulated arrays for key management in resource-limited environments.</p>
+            <p class="project-links"><a href="https://doi.org/10.1109/IMSRFSA70221.2026.11624200">[IMS 2026]</a></p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-figure project-figure--inset">
+            <img src="images/secret_sharing.png" alt="Noisy side-channel leakage from masked secret shares" />
+          </div>
+          <div class="project-body">
+            <h4>Security of Secret-Sharing Schemes against Side-Channel Attacks</h4>
+            <p>Improved bounds on the security guarantees of secret-sharing-based masking schemes, characterizing the trade-off between masking order and resilience to side-channel eavesdropping.</p>
+            <p class="project-links"><a href="https://link.springer.com/chapter/10.1007/978-3-032-25336-1_17">[EUROCRYPT 2026]</a> <a href="https://doi.org/10.1109/ISIT57864.2024.10619359">[ISIT 2024]</a></p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-figure">
+            <img src="images/source_inference_v2.svg" alt="Source inference from global-model output fingerprints" />
+          </div>
+          <div class="project-body">
+            <h4>Source-Inference Attacks</h4>
+            <p>Designed a source-inference attack against a state-of-the-art shuffling-based federated-learning defense by adapting methods from membership-inference attacks, and validated its performance on models trained on imbalanced versions of MNIST and CIFAR.</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-figure">
+            <img src="images/adversarial_channel.png" alt="Adversarial attack on deep-learning channel estimation" />
+          </div>
+          <div class="project-body">
+            <h4>Adversarial Attacks on Channel Estimation</h4>
+            <p>Implemented gradient-based adversarial attacks against deep-learning models for wireless channel estimation, and proposed physically realizable over-the-air attacks under constraints relevant to wireless system security.</p>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <hr />
+
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+      <h2 class="section-title">Publications</h2>
+      <ol class="pub-list">
+        <li>
+          <span class="pub-title">On the Security of Linear Secret Sharing with General Noisy Side-Channel Leakage.</span>
+          <span class="pub-authors"><strong>Utkarsh Gupta</strong>, Hessam Mahdavifar.</span>
+          <span class="pub-venue">Eurocrypt 2026. <span class="pub-links"><a href="https://link.springer.com/chapter/10.1007/978-3-032-25336-1_17">[paper]</a> <a href="https://eprint.iacr.org/2025/1809">[ePrint]</a></span></span>
+          <span class="pub-venue">Journal version under review, IEEE Transactions on Information Theory.</span>
+        </li>
+        <li>
+          <span class="pub-title">Physical Layer Security via Secret Sharing over Time Modulated Arrays.</span>
+          <span class="pub-authors"><strong>Utkarsh Gupta</strong>, Hessam Mahdavifar, Najme Ebrahimi.</span>
+          <span class="pub-venue">IMS 2026. <span class="pub-links"><a href="https://doi.org/10.1109/IMSRFSA70221.2026.11624200">[paper]</a></span></span>
+          <span class="pub-venue">Journal version under review, IEEE Transactions on Microwave Theory and Techniques.</span>
+        </li>
+        <li>
+          <span class="pub-title">Bounds on the Statistical Leakage-Resilience of Shamir's Secret Sharing.</span>
+          <span class="pub-authors"><strong>Utkarsh Gupta</strong>, Hessam Mahdavifar.</span>
+          <span class="pub-venue">IEEE International Symposium on Information Theory, 2024. <span class="pub-links"><a href="https://doi.org/10.1109/ISIT57864.2024.10619359">[paper]</a> <a href="https://arxiv.org/abs/2405.04622">[arxiv]</a></span></span>
+        </li>
+        <li>
+          <span class="pub-title">A New Algebraic Approach for String Reconstruction from Substring Compositions.</span>
+          <span class="pub-authors"><strong>Utkarsh Gupta</strong>, Hessam Mahdavifar.</span>
+          <span class="pub-venue">IEEE International Symposium on Information Theory, 2022. <span class="pub-links"><a href="https://doi.org/10.1109/ISIT50566.2022.9834531">[paper]</a></span></span>
+          <span class="pub-venue">Journal version in IEEE Transactions on Information Theory, 2024. <span class="pub-links"><a href="https://doi.org/10.1109/TIT.2024.3493762">[paper]</a> <a href="https://arxiv.org/abs/2201.09955">[arxiv]</a></span></span>
+        </li>
+        <li>
+          <span class="pub-title">Polar Codes with Balanced Codewords.</span>
+          <span class="pub-authors"><strong>Utkarsh Gupta</strong>, Han Mao Kiah, Alexander Vardy, Hanwen Yao.</span>
+          <span class="pub-venue">IEEE International Symposium on Information Theory, 2020. <span class="pub-links"><a href="https://doi.org/10.1109/ISIT44484.2020.9174042">[paper]</a></span></span>
+        </li>
+      </ol>
+    </section>
+
+    <hr />
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>Email: <a href="mailto:utkarshgupta99@gmail.com">utkarshgupta99[at]gmail[dot]com</a></p>
+      <p>Institute for Intelligent Networked Systems<br />Northeastern University, Boston, MA.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Utkarsh Gupta.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

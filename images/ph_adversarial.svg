@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img">
+  <rect width="640" height="400" fill="#f4f5f7"/>
+  <rect x="0.5" y="0.5" width="639" height="399" fill="none" stroke="#d7dae0" stroke-width="1" stroke-dasharray="6 6"/>
+  <g fill="#aab0bb">
+    <circle cx="320" cy="150" r="34" fill="none" stroke="#c2c7d0" stroke-width="6"/>
+    <rect x="300" y="200" width="40" height="6" rx="3"/>
+  </g>
+  <text x="320" y="262" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#5f6672" font-weight="bold">Adversarial Attacks on</text>
+  <text x="320" y="288" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#5f6672" font-weight="bold">Channel Estimation</text>
+  <text x="320" y="352" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#9aa1ad" font-style="italic">figure coming soon</text>
+</svg>
